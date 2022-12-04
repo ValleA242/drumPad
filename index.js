@@ -1,12 +1,12 @@
 function clickEvent(){
-    let buttonArray = document.querySelectorAll("button") 
-    
+    let drumArray = document.querySelectorAll(".drum") 
+
     function handleClick(){
         alert("I have been clicked")
     }
 
-    for(i = 0; i < buttonArray.length; i++){
-        buttonArray[i].addEventListener("click", handleClick) 
+    for(i = 0; i < drumArray.length; i++){
+        drumArray[i].addEventListener("click", handleClick)
     }
 }
 
